@@ -1,0 +1,11 @@
+{
+  "source": "Crab",
+  "source_ra_deg": 83.633,
+  "source_dec_deg": 22.014,
+  "pedestal": { "ul": null, "ll": null, "sigma": 2 },
+  "cosmics": { "ul": null, "ll": null, "sigma": 2 },
+  "cosmics_10": { "ul": null, "ll": null, "sigma": 2 },
+  "cosmics_30": { "ul": null, "ll": null, "sigma": 2 },
+  "time_start": "2021-01-01",
+  "time_stop": "2021-02-01"
+}
