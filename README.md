@@ -6,21 +6,19 @@ To be used as a submodule in the [main analysis repository](https://github.com/n
 ## Organization
 
 ```
-lst-analysis-config/{source}/{analysis}/
+lst-analysis-config/{analysis}/
 ```
 
-Each directory in this repository holds configuration for a specific source.
-The general data selection, which All-Sky MC to use, how to process their IRFs, and a matplotlibrc.
-
-Each source directory additionally holds one or more directories for analyses of that source.
+This directory holds one or more directories for analyses of that source.
 In each of those directories is the Gammapy analysis config and Gammapy model config.
 
-One source can have multiple analyses, e.g. for differing energy or time regimes.
+The analysis can have multiple analyses, e.g. for differing energy or time regimes.
 
 ## Usage
 
 Fork this repository, change the settings to your liking, add another source, add another analysis etc.
 Afterwards, clone your fork into the analysis repository.
 ```
-git clone https://github.com/<your-username>/lst-analysis-config.git configs/<your-username>
+git clone https://github.com/<your-username>/lst-analysis-config.git configs
 ```
+Make sure that `configs` is an emtpy directory.
