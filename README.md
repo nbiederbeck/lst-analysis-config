@@ -20,7 +20,7 @@ One source can have multiple analyses, e.g. for differing energy or time regimes
 ## Usage
 
 Fork this repository, change the settings to your liking, add another source, add another analysis etc.
-Afterwards, add your fork as a submodule in the analysis repository.
+Afterwards, clone your fork into the analysis repository.
 ```
-git submodule add https://github.com/<your-username>/lst-analysis-config/ configs/<your-username>
+git clone https://github.com/<your-username>/lst-analysis-config.git configs/<your-username>
 ```
