@@ -16,7 +16,7 @@ datasets:
   stack: true
   geom:
     wcs:
-      skydir: { frame: galactic, lon: 83.633 deg, lat: 22.014 deg }
+      skydir: { frame: icrs, lon: 83.633 deg, lat: 22.014 deg }
       binsize: 0.02 deg
       width: { width: 2.0 deg, height: 2.0 deg }
       binsize_irf: 0.2 deg
@@ -34,7 +34,7 @@ datasets:
     method: "reflected"
     parameters: { min_distance_input: 10 deg }
   on_region:
-    { frame: galactic, lon: 83.633 deg, lat: 22.014 deg, radius: 0.2 deg }
+    { frame: icrs, lon: 83.633 deg, lat: 22.014 deg, radius: 0.2 deg }
   containment_correction: false
 
 fit:
