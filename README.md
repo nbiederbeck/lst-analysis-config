@@ -17,6 +17,8 @@ The analysis can have multiple analyses, e.g. for differing energy or time regim
 ## Usage
 
 Fork this repository, change the settings to your liking, add another source, add another analysis etc.
+*Important:* Currently the `datastore` path in the `analysis.yaml` config needs to
+be set to `build/{name of this directory}/dl3`.
 Afterwards, clone your fork into the analysis repository.
 ```
 git clone https://github.com/<your-username>/lst-analysis-config.git configs
