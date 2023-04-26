@@ -3,10 +3,10 @@ general:
     level: info
 
 observations:
-  datastore: build/lst-analysis-config/dl3
+  datastore: build/lst-analysis-config_m87/dl3
   obs_time:
     start: "2021-01-01"
-    stop: "2021-02-01"
+    stop: "2023-01-01"
   required_irf:
     - aeff
     - edisp
@@ -16,7 +16,7 @@ datasets:
   stack: true
   geom:
     wcs:
-      skydir: { frame: icrs, lon: 83.633 deg, lat: 22.014 deg }
+      skydir: { frame: icrs, lon: 187.70593076 deg, lat: 12.39112329 deg }
       binsize: 0.02 deg
       width: { width: 2.0 deg, height: 2.0 deg }
       binsize_irf: 0.2 deg
@@ -32,9 +32,9 @@ datasets:
         nbins: 20
   background:
     method: "reflected"
-    parameters: { min_distance_input: 10 deg }
+    parameters: { min_distance_input: 1 deg }
   on_region:
-    { frame: icrs, lon: 83.633 deg, lat: 22.014 deg, radius: 0.2 deg }
+    { frame: icrs, lon: 187.70593076 deg, lat: 12.39112329 deg, radius: 0.2 deg }
   containment_correction: false
 
 fit:
@@ -42,8 +42,8 @@ fit:
 
 flux_points:
   energy: { min: 20 GeV, max: 10 TeV, nbins: 20 }
-  source: Crab
+  source: M87
 
 light_curve:
   energy_edges: { min: 100 GeV, max: 10 TeV, nbins: 1 }
-  source: Crab
+  source: M87
