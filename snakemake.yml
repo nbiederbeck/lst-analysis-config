@@ -1,0 +1,51 @@
+# data-selection.json
+source_name: "Crab"
+source_lon: "83.633 deg"
+source_lat: "22.014 deg"
+source_frame: "icrs"
+
+total_time_start: "2021-01-01"
+total_time_stop: "2021-02-01"
+
+data_selection:
+  pedestal:
+    ul: null
+    ll: null
+    sigma: 2
+  cosmics:
+    ul: null
+    ll: null
+    sigma: 2
+  cosmics_10:
+    ul: null
+    ll: null
+    sigma: 2
+  cosmics_30:
+    ul: null
+    ll: null
+    sigma: 2
+
+# irf_tool_config.json
+irf_tool_config:
+  DL3Cuts:
+    max_gh_cut: 1.0
+    min_gh_cut: 0.2
+    gh_efficiency: 0.9
+    max_theta_cut: 0.35
+    fill_theta_cut: 0.35
+    min_theta_cut: 0.05
+    theta_containment: 0.68
+  IRFFITSWriter:
+    energy_dependent_theta: true
+    energy_dependent_gh: true
+    point_like: true
+    overwrite: true
+
+# lst_agn.json
+mc_production: "20230127_v0.9.12_base_prod_az_tel"
+mc_declination: "dec_3476"
+lstchain_enviroment: "lstchain-v0.9.13"
+n_off_regions: 1
+
+analyses:
+  -
