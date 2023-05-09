@@ -1,8 +1,8 @@
 {
   "DL3Cuts": {
     "max_gh_cut": 1.0,
-    "min_gh_cut": 0.2,
-    "gh_efficiency": 0.9,
+    "min_gh_cut": 0.4,
+    "gh_efficiency": 0.8,
     "max_theta_cut": 0.35,
     "fill_theta_cut": 0.35,
     "min_theta_cut": 0.05,
