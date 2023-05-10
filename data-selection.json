@@ -6,6 +6,6 @@
   "cosmics": { "ul": null, "ll": null, "sigma": 2 },
   "cosmics_10": { "ul": null, "ll": null, "sigma": 2 },
   "cosmics_30": { "ul": null, "ll": null, "sigma": 2 },
-  "time_start": "2021-02-01",
-  "time_stop": "2021-03-01"
+  "time_start": "2021-02-10",
+  "time_stop": "2021-02-12"
 }
